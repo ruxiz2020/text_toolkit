@@ -1,0 +1,13 @@
+dash==1.13.4
+dash-renderer
+dash-html-components
+dash-core-components
+dash-dangerously-set-inner-html
+plotly
+gunicorn==19.9.0
+pandas==0.24.2
+pydub==0.23.1
+gtts
+transformers==2.11.0
+torch
+rake_nltk
