@@ -10,4 +10,5 @@ pydub==0.23.1
 gtts
 transformers==2.11.0
 torch
+nltk
 rake_nltk

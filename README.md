@@ -33,4 +33,5 @@ heroku create  text-toolkit
 
 git remote add heroku  text-toolkit
 
+git push heroku master
 ```
