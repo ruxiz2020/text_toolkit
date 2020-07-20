@@ -24,3 +24,13 @@ Run the app:
 env/bin/python text_toolkit/reporting/app.py
 ```
 Open a browser at http://127.0.0.1:8050
+
+
+## deploying it on Heroku
+
+```bash
+heroku create  text-toolkit
+
+git remote add heroku  text-toolkit
+
+```
