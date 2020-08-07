@@ -9,7 +9,9 @@ pandas==0.24.2
 pydub==0.23.1
 gtts
 transformers==2.11.0
-torchvision
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.5.0+cpu
+torchvision==0.6.0+cpu
 bs4
 html5lib
 lxml
