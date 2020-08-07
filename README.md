@@ -31,7 +31,6 @@ Open a browser at http://127.0.0.1:8050
 ```bash
 heroku create  text-toolkit
 
-git remote add heroku  text-toolkit
 
 git push heroku master
 ```
