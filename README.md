@@ -29,8 +29,9 @@ Open a browser at http://127.0.0.1:8050
 ## deploying it on Heroku
 
 ```bash
-heroku create  text-toolkit
+#heroku create  text-toolkit
 
+heroku create --buildpack https://github.com/ruxiz2020/text_toolkit/conda-buildpack.git
 
 git push heroku master
 ```
