@@ -1,1 +1,1 @@
-web: gunicorn app:APP
+web: gunicorn text_toolkit.reporting.app:APP
