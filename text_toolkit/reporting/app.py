@@ -31,9 +31,9 @@ df = pd.read_csv(DATA_PATH.joinpath("small_molecule_drugbank.csv")).drop(
 DATA_FILE = DATA_PATH.joinpath("test.txt")
 AUDIO_FILE = DATA_PATH.joinpath("test.mp3")
 
-html_audio_code = '<figure> <audio controls src=\"{}\" > Your audio</audio> </figure>'.format(AUDIO_FILE)
+#html_audio_code = '<figure> <audio controls src=\"{}\" > Your audio</audio> </figure>'.format(AUDIO_FILE)
 #html_audio_code = '<embed src=\"{}\">'.format(AUDIO_FILE)
-print(html_audio_code)
+#print(html_audio_code)
 
 STARTING_DRUG = "Levobupivacaine"
 DRUG_DESCRIPTION = df.loc[df["NAME"] == STARTING_DRUG]["DESC"].iloc[0]
@@ -139,6 +139,7 @@ app.layout = html.Div(
                 #html.Div([
                 #    dash_dangerously_set_inner_html.DangerouslySetInnerHTML(html_audio_code),
                 #    ])
+
 
             ],
             className="app__container",

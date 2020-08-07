@@ -2,7 +2,7 @@ import dash_html_components as html
 from text_toolkit.url2text.url2text import Url2Text
 from text_toolkit.text2sound.text2sound import Test2Sound
 from text_toolkit.summarize.summarize import Summarize
-from text_toolkit.extract_keywords.extract_keywords import ExtractKeywords
+#from text_toolkit.extract_keywords.extract_keywords import ExtractKeywords
 
 
 def make_dash_table(selection, df):
@@ -247,11 +247,11 @@ def gen_summary_from_sentences(sentences):
 
     return list_summary
 
-def gen_keywords_from_text(text):
+# def gen_keywords_from_text(text):
 
-    kw = ExtractKeywords(text)
-    kw.extract_keywords()
+#    kw = ExtractKeywords(text)
+#    kw.extract_keywords()
 
-    result = kw.keywords
+#    result = kw.keywords
 
-    return result[:100] # first 100 keywords
+#    return result[:100] # first 100 keywords

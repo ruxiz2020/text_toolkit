@@ -1,0 +1,27 @@
+
+body {
+  margin: 0;
+  font-size: 18px;
+}
+
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+.input-text-box {
+  font-size: 18px;
+  position: relative;
+  left: 2.5%;
+  right: 2.5%;
+  color: black;
+  padding: 2.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.main-title {
+  color: navy;
+  text-align: center;
+}

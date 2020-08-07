@@ -1,7 +1,7 @@
 dash==1.13.4
-dash-renderer
+dash-renderer==1.5.1
 dash-html-components
-dash-core-components
+dash-core-components==1.10.1
 dash-dangerously-set-inner-html
 plotly
 gunicorn==19.9.0
@@ -10,5 +10,7 @@ pydub==0.23.1
 gtts
 transformers==2.11.0
 torch
-nltk
-rake_nltk
+bs4
+html5lib
+lxml
+.

@@ -16,7 +16,7 @@ Install the requirements:
 ```bash
 env/bin/pip install -r requirements.txt
 
-env/bin/pip install . -U --force-reinstall --no-deps
+# env/bin/pip install . -U --force-reinstall --no-deps
 ```
 Run the app:
 
