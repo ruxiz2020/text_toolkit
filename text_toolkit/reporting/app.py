@@ -8,8 +8,9 @@ import dash_dangerously_set_inner_html
 from dash.dependencies import Input, Output, State
 from dash.exceptions import PreventUpdate
 from helpers import (make_dash_table, create_plot,
-                     extract_text_from_url, gen_sound_from_text,
-                     gen_summary_from_text, gen_summary_from_sentences)
+                     extract_text_from_url,
+                     gen_summary_from_text,
+                     gen_summary_from_sentences)
 
 
 app = dash.Dash(
